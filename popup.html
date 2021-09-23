@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Image Gatherer</title>
+		<style>
+			html {
+				border-radius: 8px;
+			}
+
+			body {
+				width: 275px;
+				height: 400px;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				border-radius: 8px;
+				overflow: hidden;
+				color: black;
+				font-size: 25px;
+				background-color: #f5c5b7;
+			}
+
+			#images-list {
+				display: flex;
+				flex-direction: column;
+				width: 200px;
+				overflow-y: auto;
+				padding-top: 30px;
+				padding-bottom: 40px;
+				padding-left: 0;
+				align-items: center;
+			}
+
+			#images-list::-webkit-scrollbar {
+				/* width: 7px; */
+				color: black;
+				border-radius: 8px;
+			}
+
+            li {
+                list-style-type: none;
+            }
+
+			img {
+				border-radius: 8px;
+                width: auto;
+				height: auto;
+				max-width: 175px;
+				margin-top: 10px;
+				margin-bottom: 10px;
+			}
+		</style>
+	</head>
+	<body>
+		<div>Image Gatherer</div>
+		<ul id="images-list"></ul>
+        <script src="popup.js" defer></script>
+        <script src="get-images.js" defer></script>
+	</body>
+</html>

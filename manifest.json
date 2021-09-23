@@ -1,0 +1,14 @@
+{
+	"name": "Image Gatherer",
+	"description": "Gathers all images on every website",
+	"version": "0.1.0",
+	"manifest_version": 2,
+	"options_page": "./options.html",
+	"browser_action": {
+		"default_popup": "popup.html"
+	  },
+	"background": {
+		"scripts": ["background.js"]
+	},
+	"permissions": ["activeTab", "tabs", "storage", "<all_urls>", "*://*/*"]
+}

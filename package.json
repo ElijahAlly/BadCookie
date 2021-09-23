@@ -1,0 +1,25 @@
+{
+  "name": "image-gatherer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "background.js",
+  "scripts": {
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElijahAlly/BadCookie.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ElijahAlly/BadCookie/issues"
+  },
+  "homepage": "https://github.com/ElijahAlly/BadCookie#readme",
+  "dependencies": {
+    "socket.io": "^4.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
